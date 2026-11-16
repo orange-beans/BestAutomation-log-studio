@@ -1,0 +1,21 @@
+* text=auto
+
+# Windows launcher must stay CRLF: cmd.exe mis-parses LF-only .bat files
+*.bat text eol=crlf
+
+# Source and docs normalized to LF
+*.py text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.pth text eol=lf
+
+# Embedded Python runtime is binary; never let Git rewrite these
+*.exe binary
+*.dll binary
+*.pyd binary
+*.zip binary
+*.cat binary

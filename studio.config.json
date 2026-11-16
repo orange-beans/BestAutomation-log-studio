@@ -1,0 +1,57 @@
+{
+  "_readme": "所有路径都相对于本 studio 目录；换电脑后整目录拷贝即可运行，无需安装任何第三方包。",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8765,
+    "portSearchRange": 20,
+    "openBrowser": true
+  },
+  "roots": {
+    "json": [
+      {
+        "id": "main",
+        "label": "配置根目录",
+        "path": "..",
+        "pattern": "*.json",
+        "desc": "BestAutomation 根目录下的 JSON 配置"
+      },
+      {
+        "id": "backup",
+        "label": "backup 备份",
+        "path": "../backup",
+        "pattern": "*.json",
+        "desc": "历史备份目录，默认只读展示"
+      }
+    ],
+    "logs": [
+      {
+        "id": "logs",
+        "label": "运行日志",
+        "path": "../logs",
+        "pattern": "*.log",
+        "desc": "按启动时间命名的运行日志"
+      },
+      {
+        "id": "experiment",
+        "label": "实验日志",
+        "path": "../logs/experiment",
+        "pattern": "*.log",
+        "desc": "每次试验的测量明细"
+      }
+    ]
+  },
+  "limits": {
+    "maxJsonBytes": 5242880,
+    "maxLogBytes": 5242880,
+    "maxListFiles": 2000
+  },
+  "backup": {
+    "keep": 30
+  },
+  "ui": {
+    "theme": "auto",
+    "fontSize": 14,
+    "lineHeight": 1.7,
+    "wrapLongLines": true
+  }
+}

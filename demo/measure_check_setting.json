@@ -1,0 +1,16 @@
+{
+  "interfaceBoard": 0,
+  "expectedAid": "0x0000",
+  "items": [
+    {
+      "name": "10R",
+      "tar": 10,
+      "tol": 1,
+      "tp1": 0,
+      "tp2": 1,
+      "segments": [
+        { "max": "inf", "parameterA": 1, "parameterB": 0 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "modelName": "DEMO-256",
+  "appName": "演示设备自动化",
+  "appVersion": "0.0.0",
+  "settingVersion": "0.0.0",
+  "testingName": "演示测量",
+  "resModelString": "demo_res",
+  "irModelString": "demo_ir",
+  "safetyCheck": false,
+  "emergencyCheck": false,
+  "doorCheck": true,
+  "keyCheck": true,
+  "language": "zh-CN",
+  "remoteServer": "",
+  "dbEngine": "sqlite",
+  "exportPath": "./Reports",
+  "measureCheck": {
+    "interfaceBoard": 0,
+    "expectedAid": "0x0000",
+    "items": [
+      {
+        "name": "10R",
+        "tar": 10,
+        "tol": 1,
+        "tp1": 0,
+        "tp2": 1
+      }
+    ]
+  }
+}

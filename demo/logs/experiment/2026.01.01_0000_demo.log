@@ -1,0 +1,4 @@
+# type: 演示; recipe: Demo-Recipe; range: AUTO; calib: demo-calib
+00:00:03.000 [EXPERIMENT]: Stp: 1; tpA: 0; tpB: 1; pinA: C1-1; pinB: C1-2; range: 10.000M; rawV: 1000; offset: 0.1; adjV: 1000; trickV: 1000; calibV: 1000; calib: demo-calib/1; V: 1.000M; Res: ✓ 合格;
+00:00:04.000 [EXPERIMENT]: Stp: 2; tpA: 0; tpB: 2; pinA: C1-1; pinB: C1-3; range: 10.000M; rawV: 2000; offset: 0.1; adjV: 2000; trickV: 2000; calibV: 2000; calib: demo-calib/1; V: 2.000M; Res: ✓ 合格;
+00:00:05.000 [EXPERIMENT]: Stp: 3; tpA: 1; tpB: 2; pinA: C1-2; pinB: C1-3; range: 10.000M; rawV: 3000; offset: 0.1; adjV: 3000; trickV: 3000; calibV: 3000; calib: demo-calib/1; V: 3.000M; Res: ✕ 不合格;

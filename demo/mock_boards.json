@@ -1,0 +1,11 @@
+{
+  "_readme": "演示用模拟板卡数据；接真实设备时请使用 BestAutomation 自己的 mock_boards.json",
+  "enabled": false,
+  "activeScenario": "all_ok",
+  "safeStatus": 7,
+  "scenarios": {
+    "all_ok": {
+      "boards": []
+    }
+  }
+}

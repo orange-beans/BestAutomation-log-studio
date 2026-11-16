@@ -1,0 +1,14 @@
+[
+  {
+    "scope": "recipe",
+    "id": "demo-recipe",
+    "keyWord": "演示产品",
+    "recipeName": "Demo-Recipe",
+    "recipeType": "绝缘电阻测量",
+    "enabled": true,
+    "segments": [
+      { "max": "10M", "parameterA": 1, "parameterB": 0 },
+      { "max": "inf", "parameterA": 0.1, "parameterB": 5 }
+    ]
+  }
+]

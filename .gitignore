@@ -1,0 +1,21 @@
+# Python bytecode (do NOT match *.pyd: those are the embedded runtime extensions)
+__pycache__/
+*.pyc
+*.pyo
+
+# Local-only state: never commit password hashes or backups
+studio.auth.json
+*.tmp
+.tool-backups/
+tests/tmp/
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Local archives
+*.rar
+*.7z
